@@ -1,9 +1,6 @@
-// const userRoutes = require('./user.routes');
-
+const auth = require('../routers/auth'); 
 function registerRoutes(app) {
-//   app.use('/api/users', userRoutes);
-  // bạn có thể thêm nhiều routes khác ở đây
-  // app.use('/api/products', require('./product.routes'));
+  app.use('/api/auth', auth);
 }
 
 module.exports = registerRoutes;
