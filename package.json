@@ -1,0 +1,30 @@
+{
+  "name": "backend-cosmetics",
+  "version": "1.0.0",
+  "description": "website cosmetics",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoang-1/Ecommerce-cosmetics.git"
+  },
+  "author": "hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoang-1/Ecommerce-cosmetics/issues"
+  },
+  "homepage": "https://github.com/zhoang-1/Ecommerce-cosmetics#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
